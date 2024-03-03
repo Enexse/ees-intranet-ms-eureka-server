@@ -21,13 +21,13 @@ pipeline {
         }
         // stage('Build Docker Image Stage') {
         //     steps {
-        //         sh 'docker build -t enexse/ees-intranet-ms-eureka-server .'
+        //         sh 'docker build -t enexse/ees-ms-eureka-server .'
         //     }
         // }
         // stage('Push Docker Image Stage') {
         //     steps {
         //         sh 'docker login -u enexse -p Softwares@1234*'
-        //         sh 'docker push enexse/ees-intranet-ms-eureka-server'
+        //         sh 'docker push enexse/ees-ms-eureka-server'
         //     }
         // }
         stage('Deploy to GKE Stage') {
