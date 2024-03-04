@@ -7,6 +7,10 @@ data:
   # you should set eureka_service_address: http://eureka-0.eureka:8761/eureka,...,http://eureka-(n-1).eureka:8761/eureka
   eureka_service_address: http://eureka-0.eureka:8761/eureka
   spring_profiles_active: prod
+  keycloak_realm: ees-ms-authentification
+  keycloak_auth_server_url: https://keycloak-enexse-u12566.vm.elestio.app/
+  keycloak_resource: ees-ms-keycloak
+  keycloack_credentials_secret: JbkQ9O7KpRc0HOUVJNOw5TY8dJQT4W4V 
 
 ---
 
