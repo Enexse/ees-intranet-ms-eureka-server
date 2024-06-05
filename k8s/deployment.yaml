@@ -12,8 +12,14 @@ data:
   keycloak_resource: ees-ms-keycloak
   keycloack_credentials_secret: JbkQ9O7KpRc0HOUVJNOw5TY8dJQT4W4V
   mongodb_port: "27017"
-  mongodb_host: mongodb+srv://ees-intranet-web:ees-intranet-web@ees-intranet-web.mp0oobs.mongodb.net/?retryWrites=true&w=majority&appName=ees-intranet-web
+  mongodb_uri: mongodb+srv://ees-intranet-web:ees-intranet-web@ees-intranet-web.mp0oobs.mongodb.net/?retryWrites=true&w=majority&appName=ees-intranet-web
   mongodb_database: ees-ms-users
+  postgres_db: ees_ms_accounting
+  postgres_url: jdbc:postgresql://postgresql-enexse-u12566.vm.elestio.app:25432/ees_ms_accounting
+  postgres_host: postgresql-enexse-u12566.vm.elestio.app
+  postgres_port: "25432"
+  postgres_user: postgres
+  postgres_password: QLyDmxqF-SLej-Nwf7f6pZ
 
 ---
 
